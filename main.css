@@ -1,0 +1,70 @@
+/* Task 1: Basic Selectors */
+
+/* Paragraphs - Type selector */
+
+p{
+  font-size:16px ;
+  line-height:1.5;
+}
+/* Sections - Class selector */
+.section-content{
+background-color:rgb(211, 211, 211) ;
+}
+
+/* Header - ID selector */
+#main-header{
+  background-color:rgb(0, 0, 128);
+  text-align:center;
+  color:white ;
+}
+/* Task 2: Grouping and Universal Selectors */
+
+/* Font Family - Grouped selector */
+h1,h2{
+  font-family: Arial,sans-serif;
+}
+.section-content{
+  font-family: Arial,sans-serif;
+
+}
+
+/* Resetting Margins and Padding - Universal selector */
+
+
+/* Task 3: Descendant and Child Selectors */
+
+/* Descendant Selector */
+#book-list  li{
+  color:rgb(0, 100, 0) ;
+
+}
+/* Child Selector */
+#book-list > li{
+  font-weight: bold;
+}
+#book-list > li{
+  color:rgb(0, 100, 0);
+}
+/* Task 4: Pseudo-class and Pseudo-element Selectors */
+
+/* Link Hover - Pseudo-class selector */
+
+a:hover{
+  color: rgb(0,0,225);
+}
+/* First Letter - Pseudo-element selector */p::first-letter{
+  font-size: 2em;
+  font-style: italic;
+}
+/* Task 5: Attribute Selectors */
+
+/* Text Input - Attribute selector */
+[type='text']{
+  border:blue;
+  margin-bottom: 10px;
+}
+
+/* Email Input - Attribute selector */
+input[type='email']{
+  border: green;
+}
